@@ -133,8 +133,8 @@ erDiagram
         Int year
         String planet
         String division
-        String? position
-        String? generateNumber
+        String position "opsional"
+        String generateNumber "opsional"
         DateTime createdAt
     }
 ```
