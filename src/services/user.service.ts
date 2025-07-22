@@ -11,9 +11,7 @@ export default class UserService {
 
   async generateNumber(userData: CreateUser): Promise<UserModel | string> {
     let { planet, year } = userData;
-    const zero = "000";
-    let angka = 1;
-
+    
     if (planet === "Minilemon Studio") {
       planet = "01";
     } else if (planet === "Minilemon Agency") {
