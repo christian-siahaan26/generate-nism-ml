@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "users" ALTER COLUMN "position" SET DATA TYPE TEXT,
+ALTER COLUMN "generateNumber" SET DATA TYPE TEXT;
